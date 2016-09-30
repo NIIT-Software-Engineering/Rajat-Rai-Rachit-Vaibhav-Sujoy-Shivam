@@ -1,0 +1,10 @@
+User class and characterstics section must provide information about the different users of the potential system.
+What literacy/competency is required from eeach class of user.
+categories of differnrt users
+use case must be transferred to feature section
+Feature section must have two sub sections -func. req. and non-functional req.
+functional req. must have a table of requirements their ids and short description of each . Apart from this it must ave use case diagram next to it.
+non functional req. must have the infra. , performance, security related req. 
+Other non func. req. must have "desirable" non functional requiremnts
+External interface is to be updated
+Update the system features section
