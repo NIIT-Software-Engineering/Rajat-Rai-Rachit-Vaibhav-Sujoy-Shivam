@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="AdminMaster.master.cs" Inherits="AdminMaster" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" Runat="Server">
+     <div align="center">
+   <nav>
+	<ul>
+		
+
+        <li><a href="#">FIR</a>
+            <ul>
+                <li><a href="RegisterFIR.aspx">Register new FIR</a></li>
+                <li><a href="ViewFIR.aspx">View Registered FIR</a></li>
+                <li><a href="UpdateFIR.aspx">Update FIR</a></li>
+                <li><a href="DeleteFIR.aspx">Delete FIR</a></li>
+            </ul>
+
+        </li>
+		<li><a href="ViewDetails.aspx">View User Details</a>
+			
+		</li>
+
+        <li><a href="#">Add Users</a>
+			<ul>
+				<li><a href="AddCitizenDetails.aspx">Citizen</a></li>
+				<li><a href="AddStaffDetails.aspx">Staff</a></li>
+				</ul>
+		</li>
+
+        <li><a href="UpdateUserDetails.aspx">Update User Details</a>
+			
+		</li>
+		<li><a href="DeleteUser.aspx">Delete Users</a>
+        </li>
+		<li><a href="ViewFeedback.aspx">See Feeback</a></li>
+        <li><a href="Logout.aspx">Logout</a></li>
+	</ul>
+</nav>
+   
+  </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
