@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="CitizenMaster.master.cs" Inherits="CitizenMaster" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" Runat="Server">
+    <div align="center">
+   <nav>
+	<ul>
+		
+
+        <li><a href="#">User Details</a>
+            <ul>
+                <li><a href="ViewCitizen.aspx">View User Details</a></li>
+
+                <li><a href="UpdateCitizenDetails.aspx">Update Details</a></li>
+                
+                
+            </ul>
+
+        </li>
+
+        <li><a href="#">FIR</a>
+            <ul>
+                <li><a href="RegisterFIRbyCitizen.aspx">Register new FIR</a></li>
+                
+                
+            </ul>
+
+        </li>
+		
+
+        <li><a href="viewFIRstatusbyCitizen.aspx">FIR Status</a>
+			
+		</li>
+
+        <li><a href="ChangeCitizenPassword.aspx">Change Password</a>
+			
+		</li>
+		<li><a href="Logout.aspx">Logout</a>
+        </li>
+		
+	</ul>
+</nav>
+   
+  </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+
